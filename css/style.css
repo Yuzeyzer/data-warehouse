@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -13,9 +17,9 @@ body {
 }
 
 .hero__content {
-	position: relative;
-	margin-top: 130px;
-	max-width: 645px;
+  position: relative;
+  margin-top: 130px;
+  max-width: 645px;
 }
 
 .hero__title {
@@ -31,11 +35,11 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-	line-height: 160%;
-	letter-spacing: 1.9px;
-	color: #4b5d68;
-	margin: 50px 0;
-	max-width: 380px;
+  line-height: 160%;
+  letter-spacing: 1.9px;
+  color: #4b5d68;
+  margin: 50px 0;
+  max-width: 380px;
 }
 
 .hero__btn {
@@ -46,22 +50,22 @@ body {
   font-size: 18px;
   line-height: 160%;
   text-align: center;
-	color: #ffffff;
-	padding: 16px 37px;
-	text-decoration:none; 
-	transition: 0.3s;
-	border: 2px solid #9c69e2;
+  color: #ffffff;
+  padding: 16px 37px;
+  text-decoration: none;
+  transition: 0.3s;
+  border: 2px solid #9c69e2;
 }
 
 .hero__btn:hover {
-	background: #fff;
-	color: #9c69e2;
+  background: #fff;
+  color: #9c69e2;
 }
 
 .hero__img {
-	position: absolute;
-	right: -665px;
-	top: 50px;
+  position: absolute;
+  right: -665px;
+  top: 50px;
 }
 
 .header {
@@ -132,3 +136,92 @@ body {
   background-color: #000;
   color: #fff;
 }
+
+.about {
+  padding-top: 196px;
+}
+
+.about__content {
+  display: flex;
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+  padding: 0 66px;
+}
+
+.about__column {
+  width: 50%;
+}
+
+.about__title {
+  margin-top: 128px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.about__description {
+  margin-top: 40px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+}
+
+.features__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__column {
+  position: relative;
+  width: 50%;
+}
+
+.features__item {
+  padding-top: 50px;
+  padding-left: 172px;
+  width: 442px;
+  height: 358px;
+}
+
+.features__item svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.features__item-title {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.features__item-description {
+  margin: 20px 0;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  color: #4b5d68;
+  max-width: 200px;
+}
+
+.features__item-link {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
