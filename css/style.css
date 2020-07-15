@@ -138,6 +138,7 @@ body {
 
 .about {
   padding-top: 196px;
+  padding-bottom: 116px;
 }
 
 .about__content {
@@ -171,10 +172,32 @@ body {
   color: #4b5d68;
 }
 
+.features__title {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  color: #212353;
+}
+
+.features__description {
+  text-align: center;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4b5d68;
+  max-width: 584px;
+  margin: 50px auto 0;
+}
 
 .features__content {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 100px;
 }
 
 .features__column {
@@ -224,4 +247,3 @@ body {
   line-height: 160%;
   color: #212353;
 }
-
