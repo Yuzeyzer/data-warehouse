@@ -224,6 +224,7 @@ body {
   transform: translate(-40%, 50%);
   fill: #9c69e2;
   transition: 0.5s;
+  animation: rashida 3s infinite alternate;
 }
 
 .svg-path-2 {
@@ -231,12 +232,25 @@ body {
   transition: 0.4s;
 }
 
+.features__item:hover * {
+  color: #fff;
+}
+
 .features__item:hover .svg-path-1 {
-  transform: translate(-130%, -50%) scale(3) ;
+  animation: rashida 3s infinite alternate;
+}
+
+@keyframes rashida {
+  0% {
+    transform: translate(-130%, -50%) scale(3);
+  }
+  100% {
+    transform: translate(-130%, -50%) scale(5) !important;
+  }
 }
 
 .features__item:hover .svg-path-2 {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .features__item-title {
