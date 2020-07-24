@@ -7,6 +7,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="icon" href="./images/favicon.png" sizes="16x16" />
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -221,5 +226,64 @@
         </div>
       </div>
     </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <div class="testimonials__content">
+          <div class="testimonials__title">Testimonials</div>
+          <div class="testimonials__slider">
+            <div class="slider__item">
+              <div class="slider__img">
+                <img src="./images/tesimonials-1.png" alt="" />
+              </div>
+              <div class="slider__text">
+                <h3 class="slider__title">John Fang</h3>
+                <span class="slider__profession">wordfaang.com</span>
+                <p class="slider__description">
+                  Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat
+                  tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__img">
+                <img src="./images/tesimonials-1.png" alt="" />
+              </div>
+              <div class="slider__text">
+                <h3 class="slider__title">John Fang</h3>
+                <span class="slider__profession">wordfaang.com</span>
+                <p class="slider__description">
+                  Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat
+                  tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                </p>
+              </div>
+            </div>
+            <div class="slider__item">
+              <div class="slider__img">
+                <img src="./images/tesimonials-1.png" alt="" />
+              </div>
+              <div class="slider__text">
+                <h3 class="slider__title">John Fang</h3>
+                <span class="slider__profession">wordfaang.com</span>
+                <p class="slider__description">
+                  Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat
+                  tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      $('.testimonials__slider').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      });
+    </script>
   </body>
 </html>
