@@ -224,7 +224,8 @@ body {
   transform: translate(-40%, 50%);
   fill: #9c69e2;
   transition: 0.5s;
-  animation: rashida 3s infinite alternate;
+  -webkit-animation: rashida 3s infinite alternate;
+          animation: rashida 3s infinite alternate;
 }
 
 .svg-path-2 {
@@ -237,7 +238,17 @@ body {
 }
 
 .features__item:hover .svg-path-1 {
-  animation: rashida 3s infinite alternate;
+  -webkit-animation: rashida 3s infinite alternate;
+          animation: rashida 3s infinite alternate;
+}
+
+@-webkit-keyframes rashida {
+  0% {
+    transform: translate(-130%, -50%) scale(3);
+  }
+  100% {
+    transform: translate(-130%, -50%) scale(5) !important;
+  }
 }
 
 @keyframes rashida {
@@ -333,4 +344,21 @@ body {
   font-size: 18px;
   line-height: 180%;
   color: #4b5d68;
+}
+
+.slick-prev.slick-arrow {
+  position: absolute;
+  right: 116px;
+  bottom: -58px;
+  font-size: 0;
+  width: 40px;
+  min-height: 14px;
+  border: none;
+  background: url(../images/previous.svg);
+  background-size: cover;
+  cursor: pointer;
+}
+.slick-prev.slick-arrow:focus {
+  border: none;
+  outline: none;
 }
