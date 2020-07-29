@@ -289,8 +289,11 @@ body {
   line-height: 160%;
   color: #212353;
 }
+.testimonials {
+  padding: 0 0 150px;
+}
 .testimonials__content {
-  padding: 109px 0 130px 93px;
+  padding: 109px 0 60px 93px;
   background-color: #9c69e2;
   border-radius: 50px;
 }
